@@ -146,10 +146,10 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE  &kp EXCL  &kp JP_DQUOTE    &kp JP_QUOTE      &kp JP_PIPE                        &kp BACKSLASH  &kp JP_LBRACKET       &kp JP_RBRACKET        &kp JP_EQUAL  &kp JP_AT
-&HASH       &trans  &kp PERCENT        &kp JP_AMPERSAND  &trans  &trans      &trans         &trans         &kp JP_LPAREN         &kp JP_RPAREN          &kp SEMI      &kp JP_COLON
-&trans      &trans  &kp JP_YEN         &kp JP_TILDE      &trans  &trans      &trans         &kp SLASH      &kp JP_LBRACE         &kp JP_RBRACE          &trans        &kp JP_UNDERSCORE
-&trans      &trans  &trans             &trans            &trans  &trans      &trans         &trans                                                                    &trans
+&kp ESCAPE  &kp EXCL  &kp JP_DQUOTE      &kp JP_QUOTE      &kp JP_PIPE                        &kp BACKSLASH  &kp JP_LBRACKET       &kp JP_RBRACKET        &kp JP_EQUAL  &kp JP_AT
+&kp HASH    &trans    &kp PERCENT        &kp JP_AMPERSAND  &trans  &trans      &trans         &trans         &kp JP_LPAREN         &kp JP_RPAREN          &kp SEMI      &kp JP_COLON
+&trans      &trans    &kp JP_YEN         &kp JP_TILDE      &trans  &trans      &trans         &kp SLASH      &kp JP_LBRACE         &kp JP_RBRACE          &trans        &kp JP_UNDERSCORE
+&trans      &trans    &trans             &trans            &trans  &trans      &trans         &trans                                                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
