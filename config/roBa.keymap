@@ -137,19 +137,19 @@
 
         NUMARROW {
             bindings = <
-&kp ESCAPE  &trans          &kp UP_ARROW    &trans     &trans                            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS      &trans
+&kp ESCAPE  &trans          &kp UP_ARROW    &trans     &trans                            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS      &kp JP_EQUAL
 &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans      &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &trans
-&trans      &trans          &trans          &trans     &trans  &trans      &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_ASTERISK  &trans
-&trans      &trans          &trans          &trans     &trans  &trans      &kp JP_EQUAL  &kp NUMBER_0                                            &kp SLASH
+&trans      &trans          &trans          &trans     &trans  &trans      &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_ASTERISK  &kp SLASH
+&trans      &trans          &trans          &trans     &trans  &trans      &trans        &kp NUMBER_0                                               &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp ESCAPE  &kp EXCL  &kp JP_DQUOTE      &kp JP_QUOTE      &kp JP_PIPE                        &kp BACKSLASH  &kp JP_LBRACKET       &kp JP_RBRACKET        &kp JP_EQUAL  &kp JP_AT
-&kp HASH    &trans    &kp PERCENT        &kp JP_AMPERSAND  &trans  &trans      &trans         &trans         &kp JP_LPAREN         &kp JP_RPAREN          &kp SEMI      &kp JP_COLON
-&trans      &trans    &kp JP_YEN         &kp JP_TILDE      &trans  &trans      &trans         &kp SLASH      &kp JP_LBRACE         &kp JP_RBRACE          &trans        &kp JP_UNDERSCORE
-&trans      &trans    &trans             &trans            &trans  &trans      &trans         &trans                                                                    &trans
+&kp ESCAPE  &kp JP_DQUOTE &kp JP_QUOTE       &kp JP_PIPE       &kp JP_TILDE                         &kp JP_COLON   &kp JP_LBRACKET       &kp JP_RBRACKET        &kp JP_AT     &kp JP_YEN
+&trans      &kp EXCL      &kp PERCENT        &kp JP_AMPERSAND  &kp HASH  &trans      &trans         &kp SEMI       &kp JP_LPAREN         &kp JP_RPAREN          &kp JP_EQUAL  &trans 
+&trans      &trans        &trans             &trans            &trans    &trans      &trans         &trans         &kp JP_LBRACE         &kp JP_RBRACE          &kp SLASH     &kp JP_UNDERSCORE
+&trans      &trans        &trans             &trans            &trans    &trans      &trans         &trans                                                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -159,7 +159,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
