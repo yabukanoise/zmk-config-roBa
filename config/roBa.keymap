@@ -75,31 +75,6 @@
             bindings = <&kp QUESTION>;
             key-positions = <20 21>;
         };
-
-        left_click {
-            bindings = <&mkp MB1>;
-            key-positions = <6 18>;
-        };
-
-        middle_click {
-            bindings = <&mkp MB3>;
-            key-positions = <7 19>;
-        };
-
-        right_click {
-            bindings = <&mkp MB2>;
-            key-positions = <8 20>;
-        };
-
-        mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <5 17>;
-        };
-
-        mb5 {
-            bindings = <&mkp MB5>;
-            key-positions = <9 21>;
-        };
     };
 
     macros {
@@ -177,10 +152,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &trans  &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans   &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3 &mkp MB2    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &trans   &mkp MB5    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                 &trans
             >;
         };
 
