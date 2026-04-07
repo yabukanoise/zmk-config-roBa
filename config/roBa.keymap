@@ -147,7 +147,7 @@
 
         NUMARROW {
             bindings = <
-&kp ESCAPE  &trans          &kp UP_ARROW    &trans     &trans                          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS      &kp JP_EQUAL
+&kp ESCAPE  &trans          &kp UP_ARROW    &trans     &kp JP_EQUAL                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS      &trans     
 &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans      &trans      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &trans
 &trans      &trans          &trans          &trans     &trans  &trans      &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_ASTERISK  &kp SLASH
 &trans      &trans          &trans          &trans     &trans  &trans      &trans      &kp NUMBER_0                                               &trans
@@ -156,24 +156,14 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE                  &kp JP_DQUOTE   &kp UP_ARROW    &kp JP_QUOTE  &kp JP_EQUAL                             &kp JP_COLON      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_AT     &kp JP_YEN
-&kp HASH                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &kp SLASH     &trans      &trans         &kp SEMI          &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_EQUAL  &trans
-&mt LEFT_SHIFT JP_ASTERISK  &trans          &trans          &trans        &kp HASH      &trans      &kp LESS_THAN  &kp GREATER_THAN  &kp JP_LBRACE    &kp JP_RBRACE    &kp SLASH     &kp JP_UNDERSCORE
-&trans                      &trans          &trans          &trans        &trans        &trans      &trans         &trans                                                            &trans
+&kp ESCAPE               &kp JP_DQUOTE   &kp UP_ARROW     &kp JP_QUOTE    &kp JP_EQUAL                                      &kp JP_COLON      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_AT     &kp JP_YEN
+&kp EXCL                 &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT       &kp SLASH     &trans               &trans         &kp SEMI          &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_PIPE   &trans
+&mt LEFT_SHIFT QUESTION  &kp PERCENT     &kp JP_AMPERSAND &kp JP_ASTERISK &kp HASH      &kp JP_BACKQUOTE     &kp LESS_THAN  &kp GREATER_THAN  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_TILDA  &kp JP_UNDERSCORE
+&trans                   &trans          &trans           &trans          &trans        &trans               &trans         &trans                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
-
-        //        SYMBOL {
-        //            bindings = <
-        //&kp ESCAPE  &kp JP_DQUOTE  &kp JP_QUOTE  &kp JP_PIPE       &kp JP_TILDE                      &kp JP_COLON  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_AT     &kp JP_YEN
-        //&trans      &kp EXCL       &kp PERCENT   &kp JP_AMPERSAND  &kp HASH      &trans      &trans  &kp SEMI      &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_EQUAL  &trans
-        //&trans      &trans         &trans        &trans            &trans        &trans      &trans  &trans        &kp JP_LBRACE    &kp JP_RBRACE    &kp SLASH     &kp JP_UNDERSCORE
-        //&trans      &trans         &trans        &trans            &trans        &trans      &trans  &trans                                                        &trans
-        //            >;
-        //            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        //        };
 
         MOUSE {
             bindings = <
