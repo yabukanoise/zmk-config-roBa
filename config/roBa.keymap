@@ -149,10 +149,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R               &kp T                                                          &kp Y             &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F               &kp G               &kp LS(LG(S))               &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V               &kp B               &kp LC(Z)                   &kp B          &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_MUHENKAN  &lt 2 INT_MUHENKAN  &lt 1 SPACE                 &kp SPACE      &lt 3 INT_HENKAN                             &lt 6 DEL
+&kp Q             &kp W         &kp E         &kp R               &kp T                                                 &kp Y             &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F               &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V               &kp B               &kp LC(Z)          &kp B          &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_MUHENKAN  &lt 2 INT_MUHENKAN  &lt 1 SPACE        &kp SPACE      &lt 3 INT_HENKAN                             &lt 6 DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -160,10 +160,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4     &kp F5                      &kp F6         &kp F7     &kp F8  &kp F9  &kp F10
-&trans  &kp LG(D)  &kp LG(E)  &kp LC(Z)  &trans  &trans      &trans  &trans         &kp LC(Y)  &trans  &trans  &kp F11
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &kp LG(DOT)    &trans     &trans  &trans  &kp F12
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                                    &trans
+&kp F1      &kp F2     &kp F3           &kp F4     &kp F5                      &kp F6       &kp F7     &kp F8  &kp F9  &kp F10
+&kp ESCAPE  &kp LG(D)  &kp LG(E)        &kp LC(Z)  &trans  &trans      &trans  &trans       &kp LC(Y)  &trans  &trans  &kp F11
+&trans      &kp LG(L)  &kp LC(LA(DEL))  &trans     &trans  &trans      &trans  &kp LG(DOT)  &trans     &trans  &trans  &kp F12
+&trans      &trans     &trans           &trans     &trans  &trans      &trans  &trans                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -185,7 +185,7 @@
 &kp ESCAPE               &kp JP_DQUOTE   &kp UP_ARROW      &kp JP_QUOTE     &kp JP_EQUAL                                       &kp JP_COLON      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_AT     &kp JP_YEN
 &kp EXCL                 &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT        &kp SLASH     &trans                &trans         &kp SEMI          &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_PIPE   &trans
 &mt LEFT_SHIFT QUESTION  &kp PERCENT     &kp JP_AMPERSAND  &kp JP_ASTERISK  &kp HASH      &kp JP_BACKQUOTE      &kp LESS_THAN  &kp GREATER_THAN  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_TILDE  &mt LEFT_SHIFT JP_UNDERSCORE
-&trans                   &trans          &trans            &kp JP_HANZEN    &trans        &trans                &trans         &kp JP_HANZEN                                                            &kp JP_CARET
+&trans                   &trans          &trans            &kp JP_HANZEN    &trans        &trans                &trans         &kp JP_HANZEN                                                     &kp JP_CARET
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -193,10 +193,10 @@
 
         MOUSE {
             bindings = <
-&trans   &trans   &kp LC(LS(TAB)) &kp LC(TAB) &trans                              &trans  &trans    &trans    &trans    &trans    
-&mkp MB4 &mkp MB5 &kp LC(W)       &kp LC(T)   &kp LC(LS(W)) &trans        &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans   &trans   &trans          &trans      &trans  &trans              &trans  &trans  &trans    &trans    &trans    &trans
-&trans   &trans   &trans          &trans      &trans  &trans              &trans  &trans                                &trans
+&trans    &trans    &kp LC(LS(TAB))  &kp LC(TAB)  &trans                             &trans  &trans    &trans    &trans    &trans
+&mkp MB4  &mkp MB5  &kp LC(W)        &kp LC(T)    &kp LC(LS(W))  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans    &trans    &trans           &trans       &trans         &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans    &trans    &trans           &trans       &trans         &trans      &trans  &trans                                &trans
             >;
         };
 
