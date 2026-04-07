@@ -158,8 +158,8 @@
             bindings = <
 &kp ESCAPE               &kp JP_DQUOTE   &kp UP_ARROW     &kp JP_QUOTE    &kp JP_EQUAL                                      &kp JP_COLON      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_AT     &kp JP_YEN
 &kp EXCL                 &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT       &kp SLASH     &trans               &trans         &kp SEMI          &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_PIPE   &trans
-&mt LEFT_SHIFT QUESTION  &kp PERCENT     &kp JP_AMPERSAND &kp JP_ASTERISK &kp HASH      &kp JP_BACKQUOTE     &kp LESS_THAN  &kp GREATER_THAN  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_TILDA  &kp JP_UNDERSCORE
-&trans                   &trans          &trans           &trans          &trans        &trans               &trans         &trans                                                            &trans
+&mt LEFT_SHIFT QUESTION  &kp PERCENT     &kp JP_AMPERSAND &kp JP_ASTERISK &kp HASH      &kp JP_BACKQUOTE     &kp LESS_THAN  &kp GREATER_THAN  &kp JP_LBRACE    &kp JP_RBRACE    &kp JP_TILDE  &mt LEFT_SHIFT JP_UNDERSCORE
+&trans                   &trans          &trans           &trans          &trans        &trans               &trans         &trans                                                            &kp JP_CARET
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
