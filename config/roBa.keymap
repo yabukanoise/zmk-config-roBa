@@ -75,6 +75,21 @@
             bindings = <&kp QUESTION>;
             key-positions = <20 21>;
         };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <12 13>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <13 14>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
