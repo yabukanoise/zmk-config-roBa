@@ -145,7 +145,7 @@
             bindings = <
 &kp F1  &kp F2     &kp F3     &kp F4     &kp F5                         &kp F6     &kp F7     &kp F8  &kp F9  &kp F10
 &trans  &kp LG(D)  &kp LG(E)  &kp LC(Z)  &trans     &trans      &trans  &trans     &kp LC(Y)  &trans  &trans  &kp F11
-&trans  &trans     &trans     &trans     &trans     &trans      &trans  &kp LG(.)  &trans     &trans  &trans  &kp F12
+&trans  &trans     &trans     &trans     &trans     &trans      &trans  &kp LG(COMMA)  &trans     &trans  &trans  &kp F12
 &trans  &trans     &trans     &trans     &trans     &trans      &trans  &trans                                &trans
             >;
         };
