@@ -108,7 +108,7 @@
         };
 
         symbol_layer_plus {
-            bindings = <&kp PLUS>;
+            bindings = <&kp JP_PLUS>;
             key-positions = <17 18>;
             layers = <3>;
         };
