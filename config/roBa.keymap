@@ -252,7 +252,7 @@
         BROWSER {
             bindings = <
 &trans          &trans       &trans           &trans       &trans                             &trans  &trans  &trans  &trans  &trans
-&kp LC(LS(TAB)) &kp LC(TAB)  &kp LC(W)        &kp LC(T)    &kp LC(LS(W))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(LS(TAB)) &kp LC(TAB)  &kp LC(W)        &kp LC(T)    &kp LC(LS(T))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans       &trans           &trans       &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans       &trans           &trans       &trans         &trans      &trans  &trans                          &trans
             >;
