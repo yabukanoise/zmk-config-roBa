@@ -235,7 +235,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &to 5   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mo 5   &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
@@ -252,10 +252,10 @@
 
         BROWSER {
             bindings = <
-&trans           &trans       &trans     &trans     &trans                             &trans  &trans  &trans  &trans  &trans
-&kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)  &kp LC(T)  &kp LC(LS(T))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans       &trans     &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans       &trans     &trans     &trans         &trans      &trans  &trans                          &trans
+&trans           &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                             &trans  &trans  &trans  &trans  &trans
+&kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)          &kp LC(T)        &kp LC(LS(T))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans                          &trans
             >;
         };
 
