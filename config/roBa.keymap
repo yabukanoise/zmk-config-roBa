@@ -127,6 +127,16 @@
             bindings = <&mkp MB3>;
             key-positions = <18 20>;
         };
+
+        MB4 {
+            bindings = <&mkp MB4>;
+            key-positions = <6 6 7>;
+        };
+
+        MB5 {
+            bindings = <&mkp MB5>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
@@ -223,10 +233,10 @@
 
         MOUSE {
             bindings = <
-&trans             &trans             &kp LC(LS(TAB))  &kp LC(TAB)  &trans                             &trans  &trans             &trans             &trans             &trans
-&mkp_exit_AML MB4  &mkp_exit_AML MB5  &kp LC(W)        &kp LC(T)    &kp LC(LS(W))  &trans      &trans  &trans  &mkp_exit_AML MB1  &mkp_exit_AML MB3  &mkp_exit_AML MB2  &trans
-&trans             &trans             &trans           &trans       &trans         &trans      &trans  &trans  &trans             &trans             &trans             &trans
-&trans             &trans             &trans           &trans       &trans         &trans      &trans  &trans                                                           &trans
+&trans             &trans             &kp LC(LS(TAB))  &kp LC(TAB)  &trans                             &trans  &trans  &trans  &trans  &trans
+&mkp_exit_AML MB4  &mkp_exit_AML MB5  &kp LC(W)        &kp LC(T)    &kp LC(LS(W))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &trans             &trans           &trans       &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans             &trans             &trans           &trans       &trans         &trans      &trans  &trans                          &trans
             >;
         };
 
