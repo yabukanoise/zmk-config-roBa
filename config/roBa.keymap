@@ -130,7 +130,7 @@
 
         MB4 {
             bindings = <&mkp MB4>;
-            key-positions = <6 6 7>;
+            key-positions = <6 7>;
         };
 
         MB5 {
