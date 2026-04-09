@@ -133,7 +133,7 @@
                 <&macro_release>,
                 <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&sl 4>;
+                <&sl 8>;
 
             label = "MKP_EXIT_AML";
         };
@@ -165,10 +165,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                                 &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &lt 5 K    &kp L    &lt 6 ENTER
+&lt 7 Q           &kp W         &kp E         &kp R      &kp T                                                 &kp Y             &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &lt 5 K    &kp L    &lt 4 ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B               &lt 1 ESCAPE       &kp B          &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 INT_MUHENKAN  &lt 6 SPACE        &kp SPACE      &lt 3 INT_HENKAN                             &lt 7 DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 INT_MUHENKAN  &lt 4 SPACE        &kp SPACE      &lt 3 INT_HENKAN                             &lt 6 DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -207,12 +207,12 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        MOUSE {
+        BROWSER {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5     &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans           &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                             &trans  &trans    &mkp MB3  &trans    &trans
+&kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)          &kp LC(T)        &kp LC(LS(T))  &trans      &trans  &trans  &mkp MB1  &mo 5     &mkp MB2  &trans
+&trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans                                &trans
             >;
         };
 
@@ -222,15 +222,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB3  &mkp MB1  &trans  &mkp MB2  &kp ENTER
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
-            >;
-        };
-
-        BROWSER {
-            bindings = <
-&trans           &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                             &trans  &trans    &mkp MB3  &trans    &trans
-&kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)          &kp LC(T)        &kp LC(LS(T))  &trans      &trans  &trans  &mkp MB1  &mo 5     &mkp MB2  &trans
-&trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans                                &trans
             >;
         };
 
@@ -249,6 +240,15 @@
 &trans  &kp LC(X)  &kp LG(V)  &kp LC(A)  &kp LC(S)        &trans      &trans  &kp LC(F)          &kp LC(H)  &trans  &trans  &trans
 &trans  &trans     &trans     &kp HOME   &kp LC(PAGE_UP)  &trans      &trans  &kp LC(PAGE_DOWN)  &kp END    &trans  &trans  &trans
 &trans  &trans     &trans     &trans     &trans           &trans      &trans  &trans                                        &trans
+            >;
+        };
+
+        MOUSE {
+            bindings = <
+&to 0   &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5     &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
     };
