@@ -37,6 +37,7 @@
 
 &trackball {
     //automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -211,9 +212,9 @@
 
         NUMARROW {
             bindings = <
-&kp ESCAPE  &trans          &kp UP_ARROW    &trans     &kp JP_EQUAL                          &kp MINUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9 &trans
-&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans        &trans      &trans      &kp JP_PLUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6 &trans
-&trans      &trans          &trans          &trans     &trans        &trans      &kp PERIOD  &kp JP_ASTERISK &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3 &kp SLASH
+&kp ESCAPE  &trans          &kp UP_ARROW    &trans     &kp JP_EQUAL                          &kp MINUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans        &trans      &trans      &kp JP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
+&trans      &trans          &trans          &trans     &trans        &trans      &kp PERIOD  &kp JP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &trans      &trans          &trans          &trans     &trans        &trans      &trans      &kp NUMBER_0                                               &trans
             >;
 
@@ -233,10 +234,10 @@
 
         MOUSE {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5     &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&to 0   &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5     &trans  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
