@@ -77,31 +77,6 @@
             key-positions = <20 21>;
         };
 
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <12 13>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <13 14>;
-        };
-
-        paste_plain {
-            bindings = <&kp LC(V)>;
-            key-positions = <3 4>;
-        };
-
-        cut {
-            bindings = <&kp LC(X)>;
-            key-positions = <2 3>;
-        };
-
-        copy_history {
-            bindings = <&kp LG(V)>;
-            key-positions = <25 26>;
-        };
-
         symbol_layer_minus {
             bindings = <&kp MINUS>;
             key-positions = <5 6>;
@@ -137,36 +112,6 @@
         mb5 {
             bindings = <&mkp MB5>;
             key-positions = <7 8>;
-        };
-
-        ctrl_a {
-            bindings = <&kp LC(A)>;
-            key-positions = <11 12>;
-        };
-
-        ctrl_f {
-            bindings = <&kp LC(F)>;
-            key-positions = <23 24>;
-        };
-
-        ctrl_h {
-            bindings = <&kp LC(H)>;
-            key-positions = <24 25>;
-        };
-
-        ctrl_z {
-            bindings = <&kp LC(Z)>;
-            key-positions = <22 23>;
-        };
-
-        ctrl_y {
-            bindings = <&kp LC(Y)>;
-            key-positions = <34 35>;
-        };
-
-        ctrl_s {
-            bindings = <&kp LC(S)>;
-            key-positions = <10 39>;
         };
     };
 
@@ -221,7 +166,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                                 &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &lt 5 K    &kp L    &lt 4 ENTER
+&kp A             &kp S         &kp D         &kp F      &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &lt 5 K    &kp L    &lt 6 ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B               &lt 1 ESCAPE       &kp B          &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 INT_MUHENKAN  &lt 6 SPACE        &kp SPACE      &lt 3 INT_HENKAN                             &lt 7 DEL
             >;
@@ -295,6 +240,15 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans          &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                    &trans
+            >;
+        };
+
+        shortcut {
+            bindings = <
+&trans  &kp LC(C)  &kp LC(V)  &kp LC(Z)  &kp LC(Y)                            &trans             &trans     &trans  &trans  &trans
+&trans  &kp LC(X)  &kp LG(V)  &kp LC(A)  &kp LC(S)        &trans      &trans  &kp LC(F)          &kp LC(H)  &trans  &trans  &trans
+&trans  &trans     &trans     &kp HOME   &kp LC(PAGE_UP)  &trans      &trans  &kp LC(PAGE_DOWN)  &kp END    &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans           &trans      &trans  &trans                                        &trans
             >;
         };
     };
