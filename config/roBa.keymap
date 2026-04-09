@@ -153,6 +153,21 @@
             bindings = <&kp LC(H)>;
             key-positions = <24 25>;
         };
+
+        ctrl_z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <22 23>;
+        };
+
+        ctrl_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <34 35>;
+        };
+
+        ctrl_s {
+            bindings = <&kp LC(S)>;
+            key-positions = <10 39>;
+        };
     };
 
     macros {
@@ -206,7 +221,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                                 &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &lt 5 K    &lt 4 L  &kp ENTER
+&kp A             &kp S         &kp D         &kp F      &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &lt 5 K    &kp L    &lt 4 ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B               &lt 6 ESCAPE       &kp B          &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 2 INT_MUHENKAN  &lt 1 SPACE        &kp SPACE      &lt 3 INT_HENKAN                             &lt 7 DEL
             >;
@@ -249,17 +264,17 @@
 
         MOUSE {
             bindings = <
-&to 0   &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5     &trans  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&to 0   &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5     &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
