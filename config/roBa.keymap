@@ -218,7 +218,7 @@
 
         BROWSER {
             bindings = <
-&trans           &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans                             &trans  &trans    &mkp MB3  &trans    &trans
+&trans           &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F5                             &trans  &trans    &mkp MB3  &trans    &trans
 &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)          &kp LC(T)        &kp LC(LS(T))  &trans      &trans  &trans  &mkp MB1  &mo 6     &mkp MB2  &trans
 &trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans                                &trans
