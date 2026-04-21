@@ -209,10 +209,10 @@
 
         shortcut {
             bindings = <
-&trans  &kp LC(C)  &kp LC(V)  &kp LC(Z)     &kp LC(Y)                            &trans             &trans       &mkp MB3  &trans    &trans
-&trans  &kp LC(X)  &kp LG(V)  &kp LC(S)     &kp LC(A)        &trans      &trans  &trans             &mkp MB1     &mo 6     &mkp MB2  &trans
-&trans  &kp LC(F)  &kp LC(H)  &kp LC(HOME)  &kp LC(PAGE_UP)  &trans      &trans  &kp LC(PAGE_DOWN)  &kp LC(END)  &trans    &trans    &trans
-&trans  &trans     &trans     &trans        &trans           &trans      &trans  &trans                                              &trans
+&trans  &kp LC(C)  &kp LC(V)  &kp LC(Z)     &kp LC(Y)                       &trans   &kp LC(HOME) &mkp MB3  &kp LC(PAGE_UP) &kp LC(PAGE_DOWN)
+&trans  &kp LC(X)  &kp LG(V)  &kp LC(S)     &kp LC(A)   &trans      &trans  &trans   &mkp MB1     &mo 6     &mkp MB2        &trans
+&trans  &trans     &trans     &kp LC(F)     &kp LC(H)   &trans      &trans  &trans   &kp LC(END)  &trans    &trans          &trans
+&trans  &trans     &trans     &trans        &trans      &trans      &trans  &trans                                          &trans
             >;
         };
 
