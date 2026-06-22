@@ -39,7 +39,7 @@
 &trackball {
     //automouse-layer = <4>;
     scroll-layers = <6>;
-    snipe-layers = <8>;
+    snipe-layers = <5>;
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -238,8 +238,8 @@ drag_off: drag_off {
 
         BROWSER {
             bindings = <
-&mo 4            &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F5                             &trans  &trans    &mkp MB3  &trans    &trans
-&kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)          &kp LC(T)        &kp LC(LS(T))  &trans      &trans  &trans  &mkp MB1  &mo 6     &mkp MB2  &trans
+&mo 4            &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F5                             &trans  &drag_off    &mkp MB3  &trans    &trans
+&kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(W)          &kp LC(T)        &kp LC(LS(T))  &trans      &trans  &drag_on  &mkp MB1  &mo 6     &mkp MB2  &trans
 &trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans           &trans       &trans             &trans           &trans         &trans      &trans  &trans                                &trans
             >;
