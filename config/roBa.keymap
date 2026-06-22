@@ -39,7 +39,7 @@
 &trackball {
     //automouse-layer = <4>;
     scroll-layers = <6>;
-
+    snipe-layers = <8>;
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -53,7 +53,7 @@
     // };
 };
 
- {
+/ {
     combos {
         compatible = "zmk,combos";
 
