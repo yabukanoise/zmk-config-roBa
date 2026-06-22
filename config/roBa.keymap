@@ -38,7 +38,6 @@
 
 &trackball {
     //automouse-layer = <4>;
-    res-cpi = <1200>;
     scroll-layers = <6>;
 
     // arrows {
@@ -54,14 +53,7 @@
     // };
 };
 
-// &trackball_listener {
-//     slow_mouse_layer {
-//         layers = <8>;                         // MOUSEレイヤー
-//         input-processors = <&zip_xy_scaler 1 2>; // カーソル速度を1/2にする
-//     };
-// };
-
-/ {
+ {
     combos {
         compatible = "zmk,combos";
 
